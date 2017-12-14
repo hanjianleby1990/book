@@ -34,7 +34,7 @@ public class BookDeleteAction extends ActionSupport{
     }
     @Override
     public String execute() throws Exception {
-        
+        System.out.println("66666");
         bookService.deleteById(id);
         return SUCCESS;
     }
